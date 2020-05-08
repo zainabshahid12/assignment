@@ -1,0 +1,146 @@
+@font-face{
+    font-family: merri;
+    src: url(font/Merriweather-Regular.ttf);
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    
+}
+.social:hover{
+    background-color: rgb(0, 68, 255);
+    transition: 500ms;
+}
+.footsoc{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.footsoc:hover{
+    background-color:#316DC3 ;
+    border-radius: 15px;
+    transition: 500ms;
+}
+.imgg1>img{
+    width: 200px;
+    height: 150px;
+}
+#logo{
+    width: 200px;
+    height: 50px;
+}
+.statimg{
+    width: 50px;
+    height: 50px;
+}
+.headp1,.headp2{
+    font-family: merri;
+    font-size: 30pt;
+}
+.headp1{
+    color: #316DC3;
+}
+.headp2{
+    color: #427900;
+}
+.blockdesc{
+    background-color: #FFFFFF;
+    /* margin: 10px auto;
+    width: 120px;
+    height: 120px; */
+    text-align: center;
+    box-shadow: rgb(202, 202, 202) 1px 1px 20px;
+    /* padding: 10px; */
+}
+.blockdesc>h2{
+    font-family: merri;
+    color:#316DC3;
+    font-size: 13pt;
+}
+.blockdesc>a>img{
+    margin-bottom: 10px;
+}
+.blocki{
+    width: 60px;
+    height: 60px;
+}
+
+.statsnum,.statsdisc,.statsdisc1{
+    font-family: merri;
+    
+}
+.statsnum{
+    font-size: 32pt;
+    color: white;
+}
+.statsdisc{
+    font-size: 12pt;
+    color: white;
+}
+.statsdisc1{
+    color: rgb(0, 243, 0);
+}
+.heading,.heading2{
+    font-family: merri;
+    font-size: 20pt;
+}
+.heading{
+    color: #316DC3;
+}
+.heading2{
+    color:#427900;
+    margin-top: -25px;
+}
+.missionsc{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    border: solid 1px rgb(225, 225, 226);
+    background-color: #F7F8FA;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.missionsc>h3{
+    font-size: 12pt;
+    text-align: center;
+    padding-left: 10px;
+    color:#316DC3 ;
+    font-family: merri;
+}
+button{
+    font-size: 8pt !important;
+    padding: 10px !important;
+    width: 70px;
+}
+.fh,.fu{
+    font-family: merri;
+    font-size: 12pt;
+}
+.fu{
+    margin-top: -12px;
+}
+li>a{
+    font-weight: bold !important;
+    font-size: small !important;
+    border-radius: 20px;
+}
+li>a:hover{
+    background-color: #316DC3;
+    transition: 500ms;
+    border-radius: 20px;
+    color: white !important;
+}
+.home{
+    background-color: #316DC3;
+    transition: 500ms;
+    border-radius: 20px;
+    color: white !important;
+}
+.fpi{
+    padding-right: 5px;
+}
